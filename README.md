@@ -11,7 +11,7 @@ $pip install djangorestframework
 $django-admin startproject config .    
 
 
-
+    
 ### Clone project
 https://github.com/EJ719/Waryongs-Server.git    
 
@@ -19,23 +19,23 @@ cd into folder
 cd waryongs    
 
 
-
+    
 ### Modify settings.py (waryongs/settings.py)
 LANGUAGE_CODE = ‘ko-kr’    
 TIME_ZONE = ‘Asia/Seoul’
 
 
-
+    
 ### Database migrate
 $python manage.py migrate
 
 
-
+    
 ### Create Application
 $python manage.py startapp waryongs
  
  
- 
+     
 ### Modify config/urls.py
     from django.urls import path
     from waryongs import views…
@@ -44,7 +44,7 @@ $python manage.py startapp waryongs
     )
  
  
- 
+     
 ### Created waryongs/urls.py
     from django.conf.urls import url
     from waryongs import views
@@ -54,7 +54,7 @@ $python manage.py startapp waryongs
     ]
 
 
-
+    
 ### Add waryongs/views.py
     from django.http import HttpResponse
     
@@ -62,6 +62,6 @@ $python manage.py startapp waryongs
         return HttpResponse(“안녕하세요. 와룡이들입니다.”)
 
 
-
+    
 ### Run Web Server
 $python manage.py runserver
