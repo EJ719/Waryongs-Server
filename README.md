@@ -13,15 +13,15 @@ $django-admin startproject config .
 
 
 ### Clone project
-https://github.com/EJ719/Waryongs-Server.git
+https://github.com/EJ719/Waryongs-Server.git    
 
-cd into folder
-cd waryongs
+cd into folder    
+cd waryongs    
 
 
 
 ### Modify settings.py (waryongs/settings.py)
-LANGUAGE_CODE = ‘ko-kr’
+LANGUAGE_CODE = ‘ko-kr’    
 TIME_ZONE = ‘Asia/Seoul’
 
 
