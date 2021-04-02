@@ -4,7 +4,7 @@
 
 
 ### Set up Python virtual environment and build apps
-$python -m venv waryongs
+$python -m venv waryongs '\n'
 $C:\venvs\waryongs\Scrips\activate
 $pip install django==3.1.3
 $pip install djangorestframework
